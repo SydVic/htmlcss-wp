@@ -40,8 +40,13 @@ ul{
     background-color: rgba(0, 0, 0, .3);
 }
 
+.float{
+    float: left;
+}
+
 /* HEADER */    
 .logo{
+    width:auto;
     height: 50px;
     border-right: 1px solid #d3d3d3;
     padding-right: 1em;
@@ -90,33 +95,42 @@ ul{
 
 /* CONTENT */
 .content{
-    background-color: #008bf4;
     margin-bottom: 1em;
 }
 
-.title{
-    background-color: #abcfe7;
-    height: 80px;
+.content .title h1{
+    font-size: 3em;
 }
 
-.float{
-    float: left;
+.content .title h2{
+    color: lightgrey;
 }
 
 .external-column{
-    background-color: #abcfe7;
     width: 15%;
     margin: 20px 0;
 }
 
 .middle-column{
-    background-color: #abcfe7;
     width: calc(70% - 30px);
     margin: 20px 15px;
 }
 
+.column img{
+    height: 150px;
+    width:100%;
+    object-fit: cover;
+}
+/* /MAIN */
+
+
 /* FOOTER */
 .footer{
-    background-color: #8801fe;
-    height: 50px;    
+    font-size: 1.5em;
+    text-align: center; 
+}
+
+.heart{
+    font-size: 1.5em;
+    color:red;
 }
