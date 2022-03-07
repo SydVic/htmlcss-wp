@@ -44,6 +44,12 @@ ul{
     float: left;
 }
 
+.column-image{
+    position: relative;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
 /* HEADER */    
 .logo{
     width:auto;
@@ -103,21 +109,21 @@ ul{
 }
 
 .content .title h2{
-    color: lightgrey;
+    color: #d3d3d3;
 }
 
 .external-column{
-    width: 15%;
+    width: 20%;
     margin: 20px 0;
 }
 
 .middle-column{
-    width: calc(70% - 30px);
+    width: calc(60% - 30px);
     margin: 20px 15px;
 }
 
 .column img{
-    height: 150px;
+    height: 175px;
     width:100%;
     object-fit: cover;
 }
