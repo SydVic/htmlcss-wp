@@ -61,7 +61,7 @@ ul{
 .header-nav li{
     display: inline-block;
     padding-right: 0.5em;
-    color: #d3d3d3;
+    color: #878787;
 }
 
 .header-nav a{
@@ -109,7 +109,7 @@ ul{
 }
 
 .content .title h2{
-    color: #d3d3d3;
+    color: #959595;
 }
 
 .external-column{
