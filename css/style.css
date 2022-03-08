@@ -48,12 +48,6 @@ ul{
     float: left;
 }
 
-.column-image{
-    position: relative;
-    border-radius: 1em;
-    overflow: hidden;
-}
-
 /* HEADER */    
 .logo{
     width:auto;
@@ -125,6 +119,12 @@ ul{
 .middle-column{
     width: calc(60% - 30px);
     margin: 20px 15px;
+}
+
+.column-image{
+    position: relative;
+    border-radius: 1em;
+    overflow: hidden;
 }
 
 .column img{
