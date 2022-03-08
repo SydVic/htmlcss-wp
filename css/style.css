@@ -127,7 +127,7 @@ ul{
     overflow: hidden;
 }
 
-.column img{
+.column-image img{
     height: 175px;
     object-fit: cover;
     object-position: center;
