@@ -17,6 +17,10 @@ html{
 }
 
 /* GENERAL */
+img{
+    width: 100%;
+}
+
 .container{
     margin: 25px auto;
     width: 70%;
@@ -125,8 +129,8 @@ ul{
 
 .column img{
     height: 175px;
-    width:100%;
     object-fit: cover;
+    object-position: center;
 }
 
 .column > h3{
